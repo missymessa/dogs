@@ -1,0 +1,39 @@
+{
+  "dogs": [
+    {
+      "name": "Coco",
+      "breeds": [ "Pug" ],
+      "isMix":  false
+    },
+    {
+      "name": "Oliver",
+      "breeds": [ "Jack Russell Terrier" ],
+      "isMix": true
+    },
+    {
+      "name": "Cassie",
+      "breeds": [ "Pembroke Welsh Corgi" ],
+      "isMix": false
+    },
+    {
+      "name": "Odie",
+      "breeds": [ "Boxer" ],
+      "isMix": true
+    },
+    {
+      "name": "Lexi",
+      "breeds": [ "Shiba Inu" ],
+      "isMix": true
+    },
+    {
+      "name": "Oreo",
+      "breeds": [ "Boston Terrier" ],
+      "isMix": false
+    },
+    {
+      "name": "Marius",
+      "breeds": [ "Black Labrador", "Golden Retriever" ],
+      "isMix": true
+    }
+  ]
+}

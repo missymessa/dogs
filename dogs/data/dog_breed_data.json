@@ -1,0 +1,36 @@
+{
+  "breeds": [
+    {
+      "name": "Boston Terrier",
+      "size": "small"
+    },
+    {
+      "name": "Boxer",
+      "size": "large"
+    },
+    {
+      "name": "Black Labrador",
+      "size": "large"
+    },
+    {
+      "name": "Golden Retriever",
+      "size": "large"
+    },
+    {
+      "name": "Jack Russell Terrier",
+      "size": "small"
+    },
+    {
+      "name": "Pembroke Welsh Corgi",
+      "size": "medium"
+    },
+    {
+      "name": "Pug",
+      "size": "small"
+    },
+    {
+      "name": "Shiba Inu",
+      "size": "medium"
+    }
+  ]
+}
