@@ -1,8 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Mono.Options;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace dogs
 {
@@ -11,10 +9,6 @@ namespace dogs
         public static void Main(string[] args)
         {
             string dogsFilePath = null;
-            var jsonSerializerOptions = new JsonSerializerOptions();
-            jsonSerializerOptions.PropertyNameCaseInsensitive = true;
-            jsonSerializerOptions.Converters.Add(new JsonStringEnumConverter(JsonNamingPolicy.CamelCase));
-
 
             var options = new OptionSet()
             {
