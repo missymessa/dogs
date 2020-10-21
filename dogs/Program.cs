@@ -8,7 +8,7 @@ namespace dogs
     {
         public static void Main(string[] args)
         {
-            string dogsFilePath = null;
+            string dogsFilePath = @"data\team_dogs.json"; ;
 
             var options = new OptionSet()
             {
